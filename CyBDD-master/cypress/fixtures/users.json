@@ -1,0 +1,10 @@
+{
+  "valid": {
+    "username": "superadmin@example.com",
+    "password": "123456"
+  },
+  "invalid": {
+    "username": "Admin",
+    "password": "Admin"
+  }
+}
