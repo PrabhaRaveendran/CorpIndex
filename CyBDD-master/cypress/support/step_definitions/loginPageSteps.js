@@ -59,3 +59,36 @@ When(/I enter "(.*)" in (username|password) field/, (text, field) => {
     cy.get(`input[name=${field}]`).type(text)
 })
 
+import { Given, When, Then, DataTable } from '@badeball/cypress-cucumber-preprocessor';
+
+Given(`I am in login page`, () => {
+    // [Given] Sets up the initial state of the system.
+});
+
+When(`I enter valid username and password`, () => {
+    // [When] Describes the action or event that triggers the scenario.
+});
+
+When(`I click on login button`, () => {
+    // [When] Describes the action or event that triggers the scenario.
+});
+
+Then(`I should see be able to create a branch`, () => {
+    // [Then] Describes the expected outcome or result of the scenario.
+});
+
+Then(`I should see me`, () => {
+    // [Then] Describes the expected outcome or result of the scenario.
+});
+
+Given(`i am able to login to the page`, () => {
+    // [Given] Sets up the initial state of the system.
+});
+
+When(`I create a voucher head`, () => {
+    // [When] Describes the action or event that triggers the scenario.
+});
+
+Then(`I should be able to view them in the Voucher head list`, () => {
+    // [Then] Describes the expected outcome or result of the scenario.
+});
